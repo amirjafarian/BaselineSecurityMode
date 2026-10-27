@@ -25,11 +25,22 @@ is `index.md` and the root `README.md` is GitHub-only.
 ## The guide file
 
 - It is a generated single file with inline CSS and JavaScript. Keep it **self-contained**: no
-  external scripts, fonts, images or CDNs, so it works offline and when emailed on its own.
-- Do not hand-edit unrelated parts. Replace the whole file with a new build, then check it in a
-  browser at narrow (about 390px), desktop and ultrawide widths: header, tabs, settings explorer
-  (three columns on wide screens), the setting detail dialog, and the footer (review/generation
-  line at the bottom and the independent-community badge at bottom right).
+  external scripts, fonts, images or CDNs, so it works offline and when emailed on its own. The
+  generator is maintained outside this repository. Replace the whole file with a new build for
+  structural changes; for a small wording or link fix, edit only the affected text and keep the
+  embedded JSON valid.
+- Required page elements: the title "Microsoft 365 security configuration guide - Baseline
+  Security Mode (BSM)" linked (new tab, `rel="noopener noreferrer"`) to Microsoft's public Baseline
+  Security Mode settings page on Microsoft Learn; a footer with the unofficial disclaimer, the
+  "public documentation reviewed / generated" line at the bottom, a link to this repository, and the
+  "Independent community guide - public Microsoft documentation only" badge at the bottom right.
+- Impact labels are **Low / Medium / High / N/A**. N/A is for behavior Microsoft already enforces or
+  has retired (nothing for the customer to configure). Do not reintroduce "Nothing to do" or
+  internal-style labels.
+- Setting links must be direct `https://learn.microsoft.com/en-us/...` pages without query strings.
+  The title link is the one deliberate exception and keeps `?view=o365-worldwide`.
+- Check the file in a browser at narrow (about 390px), desktop and ultrawide widths: header, tabs,
+  settings explorer (three columns on wide screens), the setting detail dialog, and the footer.
 
 ## Docs site
 
@@ -44,4 +55,8 @@ is `index.md` and the root `README.md` is GitHub-only.
 - Work on a feature branch and open a PR into `main`. Do not push directly to `main`.
 - Commit subjects are imperative and at most 72 characters. The body explains why. On
   AI-assisted commits, end with `Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>`.
-- Tag releases `vX.Y.Z` and keep `CHANGELOG.md` (Keep a Changelog format) in step.
+- Tag releases `vX.Y.Z` and keep `CHANGELOG.md` (Keep a Changelog format) in step. Versions 1.0.0
+  to 1.0.3 are recorded in the changelog but have not been tagged yet.
+- After a merge to `main`, confirm the GitHub Pages build succeeds and the live guide at
+  `https://amirjafarian.github.io/BaselineSecurityMode/guide/bsm-technical-guide.html` shows the
+  change. Git normalizes line endings, so compare content, not raw bytes.
