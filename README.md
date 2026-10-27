@@ -31,7 +31,8 @@ products and admin surfaces, and a copyable deployment plan.
 
 ## Please note
 
-- The phases and the **Low / Medium / High / Nothing to do** impact labels are planning aids.
+- The phases and the **Low / Medium / High / N/A** impact labels are planning aids. **N/A** means
+  Microsoft already enforces or has retired the behavior, so there is nothing to configure.
   They are not Microsoft requirements, a mandated order or a guarantee of no impact.
 - Some changes are permanent or service-managed and cannot be reversed. The guide marks these.
 - The page does not connect to, read or change any tenant.

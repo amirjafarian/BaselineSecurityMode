@@ -15,7 +15,8 @@ is `index.md` and the root `README.md` is GitHub-only.
   email addresses, local file paths, non-public documents or screenshots of them.
 - Keep wording neutral and independent. Do not imply that Microsoft authored, endorses, supports or
   mandates the guide, its phases or its impact labels. The phases and the Low / Medium / High /
-  Nothing to do labels are planning aids.
+  N/A labels are planning aids. **N/A** means Microsoft already enforces or has retired the
+  behavior, so the customer has nothing to configure.
 - Keep **Permanent** (cannot be reversed), **Reversible** and **Service-managed** distinct, and
   keep the red outline on permanent items. Do not present a permanent change as reversible.
 - Recheck the linked Learn pages before updating the "public documentation reviewed" date, and

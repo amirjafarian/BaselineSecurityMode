@@ -20,6 +20,18 @@ Each release records the date its public Microsoft Learn sources were reviewed.
 
 ---
 
+## [1.0.2] - 2026-10-27
+
+Public documentation reviewed 2026-10-27 (no source changes).
+
+### Changed
+
+- Impact label **Nothing to do** is now **N/A**. It is used where Microsoft already enforces or
+  has retired the behavior, so the customer has nothing to configure. The impact filter, key and
+  matrix explain the label, and screen readers announce it as not applicable.
+
+---
+
 ## [1.0.1] - 2026-10-27
 
 Public documentation reviewed 2026-10-27 (no content changes).
