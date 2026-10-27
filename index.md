@@ -12,7 +12,7 @@ An independent, community-authored technical guide to **Baseline Security Mode (
 Microsoft 365 admin center and the related identity, device, email and audit protections. It
 summarizes public Microsoft Learn documentation and links to the original pages.
 
-> ⚠️ **Review first, then deploy.** The phases and the Low / Medium / High / Nothing to do impact
+> ⚠️ **Review first, then deploy.** The phases and the Low / Medium / High / N/A impact
 > labels are planning aids, not Microsoft requirements or guarantees. Some changes are permanent or
 > service-managed and cannot be reversed. Pilot with representative users before you change a
 > production environment.
