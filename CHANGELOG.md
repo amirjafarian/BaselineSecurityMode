@@ -20,6 +20,18 @@ Each release records the date its public Microsoft Learn sources were reviewed.
 
 ---
 
+## [1.0.3] - 2026-10-27
+
+Public documentation reviewed 2026-10-27 (no source changes).
+
+### Changed
+
+- The guide title now reads "Microsoft 365 security configuration guide - Baseline Security Mode
+  (BSM)" and links to Microsoft's public Baseline Security Mode settings page on Microsoft Learn
+  (opens in a new tab).
+
+---
+
 ## [1.0.2] - 2026-10-27
 
 Public documentation reviewed 2026-10-27 (no source changes).
