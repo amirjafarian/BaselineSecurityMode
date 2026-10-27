@@ -20,6 +20,16 @@ Each release records the date its public Microsoft Learn sources were reviewed.
 
 ---
 
+## [1.0.1] - 2026-10-27
+
+Public documentation reviewed 2026-10-27 (no content changes).
+
+### Added
+
+- Repository link in the guide footer for the source, corrections and license.
+
+---
+
 ## [1.0.0] - 2026-10-27
 
 Public documentation reviewed 2026-10-27.
