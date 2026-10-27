@@ -20,6 +20,17 @@ Each release records the date its public Microsoft Learn sources were reviewed.
 
 ---
 
+## [1.0.4] - 2026-10-27
+
+Public documentation reviewed 2026-10-27 (no source changes).
+
+### Changed
+
+- Removed the "No tenant, customer or telemetry data is included" line under the settings groups
+  and the "this page does not connect to or change your environment" clause from the guide notice.
+
+---
+
 ## [1.0.3] - 2026-10-27
 
 Public documentation reviewed 2026-10-27 (no source changes).

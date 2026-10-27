@@ -31,11 +31,11 @@ products and admin surfaces, and a copyable deployment plan.
 
 ## Please note
 
-- The phases and the **Low / Medium / High / N/A** impact labels are planning aids. **N/A** means
-  Microsoft already enforces or has retired the behavior, so there is nothing to configure.
-  They are not Microsoft requirements, a mandated order or a guarantee of no impact.
+- The phases and the **Low / Medium / High / N/A** impact labels are planning aids. They are not
+  Microsoft requirements, a mandated order or a guarantee of no impact.
+- **N/A** means Microsoft already enforces or has retired the behavior, so there is nothing to
+  configure.
 - Some changes are permanent or service-managed and cannot be reversed. The guide marks these.
-- The page does not connect to, read or change any tenant.
 - Always review the current Microsoft documentation, your licensing and your change process, and
   pilot with representative users before you configure a production environment.
 
@@ -53,7 +53,7 @@ and other product names are trademarks of the Microsoft group of companies.
 
 Open an issue for a correction. Please include the public Microsoft Learn page that supports it.
 Content in this repository is limited to public Microsoft documentation and your own public
-observations. Do not post tenant data, customer information or non-public material.
+observations.
 
 ## License
 
