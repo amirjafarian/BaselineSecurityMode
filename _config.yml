@@ -1,0 +1,73 @@
+title: Baseline Security Mode technical guide
+description: >-
+  Independent community guide to Baseline Security Mode and related Microsoft 365
+  security settings, summarized from public Microsoft Learn documentation.
+url: "https://amirjafarian.github.io"
+baseurl: "/BaselineSecurityMode"
+
+# GitHub Pages must be configured as "Deploy from a branch" -> main, root.
+remote_theme: just-the-docs/just-the-docs@v0.10.0
+color_scheme: light
+
+search_enabled: true
+search:
+  heading_level: 3
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+heading_anchors: true
+back_to_top: true
+back_to_top_text: "Back to top"
+
+footer_content: >-
+  Independent community guide &mdash; public Microsoft documentation only. Provided AS IS
+  with no warranty. See the
+  <a href="https://github.com/amirjafarian/BaselineSecurityMode">repository</a>
+  for the LICENSE and disclaimer.
+
+aux_links:
+  "GitHub":
+    - "https://github.com/amirjafarian/BaselineSecurityMode"
+
+# The standalone guide in guide/ has no front matter, so Jekyll copies it unchanged.
+exclude:
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - node_modules
+  - .vscode
+  - Design-Notes
+  - README.md   # Site landing page lives in index.md; root README is GitHub-only.
+
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-relative-links
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
+
+relative_links:
+  enabled: true
+  collections: true
+titles_from_headings:
+  enabled: true
+  strip_title: false
+  collections: true
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+future: false
+show_drafts: false

@@ -1,0 +1,11 @@
+# VS Code workspace settings - personal/machine-specific
+.vscode/
+
+# Personal design / brainstorming notes - local-only
+Design-Notes/
+
+# Jekyll local-preview output and lock file. The docs site is built by
+# GitHub Pages from the repository source; nothing here belongs in git.
+_site/
+.jekyll-cache/
+Gemfile.lock
