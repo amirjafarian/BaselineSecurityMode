@@ -37,6 +37,8 @@ is `index.md` and the root `README.md` is GitHub-only.
 - Impact labels are **Low / Medium / High / N/A**. N/A is for behavior Microsoft already enforces or
   has retired (nothing for the customer to configure). Do not reintroduce "Nothing to do" or
   internal-style labels.
+- Public-facing wording must not state that the page contains no tenant, customer or telemetry data
+  or that it does not connect to an environment; readers do not expect such data in documentation.
 - Setting links must be direct `https://learn.microsoft.com/en-us/...` pages without query strings.
   The title link is the one deliberate exception and keeps `?view=o365-worldwide`.
 - Check the file in a browser at narrow (about 390px), desktop and ultrawide widths: header, tabs,
@@ -55,8 +57,8 @@ is `index.md` and the root `README.md` is GitHub-only.
 - Work on a feature branch and open a PR into `main`. Do not push directly to `main`.
 - Commit subjects are imperative and at most 72 characters. The body explains why. On
   AI-assisted commits, end with `Co-authored-by: Copilot <223556219+Copilot@users.noreply.github.com>`.
-- Tag releases `vX.Y.Z` and keep `CHANGELOG.md` (Keep a Changelog format) in step. Versions 1.0.0
-  to 1.0.3 are recorded in the changelog but have not been tagged yet.
+- Tag releases `vX.Y.Z` and keep `CHANGELOG.md` (Keep a Changelog format) in step. Changelog
+  versions are not tagged automatically; no release has been tagged yet.
 - After a merge to `main`, confirm the GitHub Pages build succeeds and the live guide at
   `https://amirjafarian.github.io/BaselineSecurityMode/guide/bsm-technical-guide.html` shows the
   change. Git normalizes line endings, so compare content, not raw bytes.
