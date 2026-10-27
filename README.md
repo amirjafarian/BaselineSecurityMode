@@ -1,33 +1,59 @@
-# 👋 Amir Jafarian
-### Building Identity & Security Platforms @ Microsoft  
+# Baseline Security Mode technical guide
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Microsoft-Identity%20Engineering-0078D4?style=for-the-badge&logo=microsoft" />
-  <img src="https://img.shields.io/badge/Azure-Cloud%20Platform-0089D6?style=for-the-badge&logo=microsoftazure" />
-  <img src="https://img.shields.io/badge/Entra-ID%20%2F%20Access-5C2D91?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Security-Zero%20Trust-E81123?style=for-the-badge" />
-</p>
+An independent, community-authored technical guide to **Baseline Security Mode (BSM)** in the
+Microsoft 365 admin center and the related identity, device, email and audit protections.
+It summarizes public Microsoft Learn documentation and links to the original pages.
 
----
+> 📖 **Read it online:** <https://amirjafarian.github.io/BaselineSecurityMode/>
+>
+> 📄 **Standalone file:** [`guide/bsm-technical-guide.html`](guide/bsm-technical-guide.html) is a
+> single self-contained page. Download it and open it offline, or share it on its own.
 
-## 🧭 Who I Am
+## What it covers
 
-- 🧑‍💻 Senior Product Manager — Microsoft Security Engineering  
-- 🔐 Focus: **Identity, Access, and Zero Trust Platforms**  
-- ☁️ Background: **Infrastructure → Cloud → Identity → Product**  
-- 📍 Sydney, Australia  
+27 settings in five groups, with search and filters in a settings explorer:
 
-> 20+ years designing, breaking, and rebuilding enterprise identity systems — now shaping them at scale. :
+| Group | Settings |
+|---|---|
+| Phase 1 - Start here | 7 |
+| Phase 2 - Expand protection | 7 |
+| Phase 3 - Broader security | 7 |
+| Other identity controls | 3 |
+| Teams Rooms guidance | 3 |
 
+For each setting the guide gives what it does, the likely user impact, how to check impact first,
+how to configure and reverse it (including the Microsoft 365 admin center, Office Cloud Policy for
+specific groups of users, and PowerShell where the public documentation describes them), who can
+change it, and links to the Microsoft Learn pages.
 
+Other sections cover impact and reversal (reversible, permanent and service-managed settings),
+products and admin surfaces, and a copyable deployment plan.
 
-## 🏢 Current Role
+## Please note
 
-**Senior Program Manager / Product Manager**  
-Microsoft — Identity & Network Access Engineering  
-📅 Aug 2021 – Present  
+- The phases and the **Low / Medium / High / Nothing to do** impact labels are planning aids.
+  They are not Microsoft requirements, a mandated order or a guarantee of no impact.
+- Some changes are permanent or service-managed and cannot be reversed. The guide marks these.
+- The page does not connect to, read or change any tenant.
+- Always review the current Microsoft documentation, your licensing and your change process, and
+  pilot with representative users before you configure a production environment.
 
-- Building and evolving Microsoft security and identity platforms  
-- Driving product strategy for identity and access services  
-- Working across engineering teams to deliver secure enterprise capabilities  
-"# BaselineSecurityMode" 
+## Disclaimer
+
+This is an independent, personal community project. It is **not an official Microsoft publication**
+and is not endorsed or supported by Microsoft. The content is provided **AS IS** without warranty
+of any kind, and you use it at your own risk. Information changes; the linked Microsoft Learn
+pages are the authoritative source.
+
+Microsoft, Microsoft 365, Microsoft Entra, Microsoft Defender, Microsoft Purview, Microsoft Teams
+and other product names are trademarks of the Microsoft group of companies.
+
+## Contributing and corrections
+
+Open an issue for a correction. Please include the public Microsoft Learn page that supports it.
+Content in this repository is limited to public Microsoft documentation and your own public
+observations. Do not post tenant data, customer information or non-public material.
+
+## License
+
+Released under the [MIT License](LICENSE).
